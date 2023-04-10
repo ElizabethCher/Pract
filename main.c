@@ -6,6 +6,8 @@ int main(int argc, char **argv)
     char name[255];
 
     printf("Enterrrr your name: ");
+printf("вввввв: ");
+    printf("Enter your name: ");
     fgets(name, 255, stdin);
     printf("length = %d\n", strlen(name)); /* debug line */
     name[strlen(name)-1] = '\0'; /* remove the newline at the end */
